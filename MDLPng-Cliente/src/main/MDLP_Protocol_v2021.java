@@ -2,9 +2,6 @@ package main;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-import java.net.ProtocolException;
-
-import main.MDLP_Protocol_v2021_constants;
 
 public class MDLP_Protocol_v2021 {
 	
@@ -20,7 +17,11 @@ public class MDLP_Protocol_v2021 {
 	 */
 	public byte[] createBearingSpeedRcd(int integerFieldSpec, double doubleBearing, double doubleSpeed) {
 
+<<<<<<< HEAD
 		// VERIFICA SE VALORES ESTAO DENTRO DA FAIXA DE VALIDADE
+=======
+		// VERIFICA SE VALORES EST�O DENTRO DA FAIXA DE VALIDADE
+>>>>>>> 031174a9b520eb598f22358f77529d55be7ab4a9
 
 		// verifica se o field spec est� entre 0 e 127
 		if (integerFieldSpec < 0 || integerFieldSpec > 127)
